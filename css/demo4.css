@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/bbb.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.title_div {
+	width: 100%;
+	height: 50px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.title_div span {
+	font-size: 40px;
+	font-family: 华文行楷;
+	background: linear-gradient(to right, #34a0cc, #0d6bf5);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+/* 导航 */
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	height: 50px;
+	background-color: #31B0D5;
+}
+
+.navbar-default {
+	border: none;
+	margin: 0 auto;
+	background-color: #31B0D5;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+/* 个人情况 */
+.head_title {
+	background-color: #31B0D5;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, #10a9d5, #cce0df);
+}
+
+.title_1 {
+	height: 160px;
+}
+
+.title_img {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: url(../img/logo.jpg)no-repeat;
+	background-size: cover;
+}
+
+.title_img:hover {
+	/* 鼠标移上去头像放大1.1倍 */
+	transform: scale(1.1);
+	transition: all .2s;
+}
+
+.title_p1 {
+	display: block;
+	text-align: center;
+	margin: 20px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* 教育背景 */
+.education {
+	width: 100%;
+}
+
+.row {
+	background-color: #ddf9f7;
+	/* display: flex;
+	flex: 1;
+	justify-content: space-around;
+	align-items: center; */
+}
+
+.edu_row {
+	border: 1px solid #7cd6e2;
+	border-radius: 80px;
+}
+
+.edu_left {
+	float: left;
+	margin-top: 20px;
+}
+
+.edu_right {
+	float: right;
+	margin-top: 20px;
+}
+
+.edu p {
+	width: 33%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	font-family: 华文新魏;
+}
+
+.e_add {
+	margin: 0 2px;
+}
+
+.edu_ul li {
+	display: block;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: 华文新魏;
+}
+
+/* 项目经验 */
+.demo {
+	width: 100%;
+}
+
+.demo_row {
+	overflow: hidden;
+	text-align: center;
+}
+
+.demo_img {
+	width: 80%;
+}
+
+.demo_1 {
+	background-color: #fff0;
+}
+
+.demo_row:hover {
+	transform: scale(1.05);
+	transition: all .2s;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+/* 个人介绍 */
+.mine {
+	width: 100%;
+}
+
+.mine_say {
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	font-family: 华文新魏;
+	background-color: #ddf9f7;
+	border-radius: 30px;
+}
+
+/* 求职意向，联系方式 */
+.footer {
+	width: 100%;
+}
+
+.footer_up {
+	width: 100%;
+	margin: 20px 0;
+}
+
+.footer_down {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.foot_row {
+	background-color: #ddf9f700;
+}
+
+.row_1 {
+	/* 超出div外不显示 */
+	overflow: hidden;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #d4faff;
+}
+
+.footer_img {
+	width: 50px;
+}
+
+.f_p1 {
+	font-size: 16px;
+	font-family: 华文隶书;
+}
+
+.f_p2 {
+	font-size: 17px;
+	font-family: 华文隶书;
+}
+
+.row_1:hover {
+	transform: scale(1.05);
+	transition: all .2s;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
